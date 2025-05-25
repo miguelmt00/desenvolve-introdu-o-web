@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>formularios</title>
+  </head>
+  <body>
+    <h1>Formulario de satisfação</h1>
+    <form method="post" action="processar_pesquisa.html">
+      <section>
+        <h2>Dado Pessoais</h2>
+        <p>
+          <label for="name"></label>
+          <input type="text" placeholder="Seu Nome" id="name" />
+        </p>
+        <p>
+          <label for="login"></label>
+          <input type="email" placeholder="Seu Gmail" id="login" />
+        </p>
+        <p>
+          <label for="Telefone"></label>
+          <input type="tel" placeholder="Seu Numero de Telefone" id="Numero" />
+        </p>
+      </section>
+      <section>
+        <h2>dados da pesquisa</h2>
+        <p>
+          De 1 a 5 qual seu nivel de satisfação com a resolução do problema
+          <input type="radio" id="1" name="nivel de satisfação" />
+          <label for="1">1</label>
+          <input type="radio" id="2" name="nivel de satisfação" />
+          <label for="2">2</label>
+          <input type="radio" id="3" name="nivel de satisfação" />
+          <label for="3">3</label>
+          <input type="radio" id="4" name="nivel de satisfação" />
+          <label for="4">4</label>
+          <input type="radio" id="5" name="nivel de satisfação" />
+          <label for="5">5</label>
+        </p>
+        <p>
+          De 1 a 5 qual seu nivel de satisfação com o atendimento
+          <input type="radio" id="1" name="nivel de satisfação" />
+          <label for="1">1</label>
+          <input type="radio" id="2" name="nivel de satisfação" />
+          <label for="2">2</label>
+          <input type="radio" id="3" name="nivel de satisfação" />
+          <label for="3">3</label>
+          <input type="radio" id="4" name="nivel de satisfação" />
+          <label for="4">4</label>
+          <input type="radio" id="5" name="nivel de satisfação" />
+          <label for="5">5</label>
+        </p>
+        <>
+          Departamento de atendimento
+          <select>
+            <option>Recursos Humanos</option>
+            <option>Comercial</option>
+            <option>Markenting</option>
+            <option>Financeiro</option>
+            <option>Logistica</option>
+          </select>
+        <p>
+        <input type="checkbox" id="Temos" />
+        <label for="Termos">autorizo compartilhar minha resposta com terceiros.</label>
+      </p>
+      <input type="submit" value="login" />
+    </form>
+  </body>
+</html>
