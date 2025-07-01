@@ -1,0 +1,10 @@
+*/ */ .principal {
+  color: #f2133c;
+}
+.background {
+  color: #0a3b59;
+}
+html {
+  color: #f2133c;
+  background: #000000;
+}

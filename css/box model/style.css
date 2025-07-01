@@ -1,0 +1,82 @@
+.main footer {
+  margin: 4%;
+}
+
+.main footer a {
+  border: solid 2px #1f295c;
+  padding: 0, 5em;
+  display: inline-block;
+}
+
+aside ul {
+  list-style-type: none;
+}
+
+aside ul li {
+  margin: 1em;
+  text-align: center;
+}
+
+.page-wrapper {
+  width: 80%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+#zen-intro {
+  height: 550px;
+}
+
+#desing-acrhives {
+  display: none;
+}
+#zen-intro header {
+  background-color: #1f295c;
+  color: #fbfcfd;
+}
+
+#zen-intro h1 #zen-intro h2 {
+  display: inline-block;
+}
+
+#zen-intro h1 {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+html {
+  background: #fbfcfd;
+  color: #1f295c;
+
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+}
+
+p {
+  text-indent: 1em;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+h1 {
+  font-size: 1.8em;
+}
+h2 {
+  font-size: 1.4rem;
+}
+h3 {
+  font-size: 1.2rem;
+}
+.summary {
+  text-align: right;
+}
+.main p {
+  line-height: 1.5;
+}
+
+abbr {
+  font-variant: small-caps;
+}
