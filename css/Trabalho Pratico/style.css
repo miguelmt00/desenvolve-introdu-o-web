@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  color: #000000;
+  outline: none;
+}
+
+.page_wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(45, 52, 54, 0.1);
+  padding: 30px 40px;
+}
+
+.sections_nav {
+  background: #011233;
+  padding: 12px 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 3px 10px rgba(45, 52, 54, 0.2);
+}
+
+.sections_nav ul {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sections_nav__link {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.sections_nav__link:hover,
+.sections_nav__link:focus {
+  background-color: #000102;
+  color: #fff;
+  outline: none;
+}
+
+.personal_info {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.personal_photo img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.personal_contact h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #011233;
+}
+
+.personal_contact h2 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #011233;
+  margin-top: 6px;
+}
+
+.personal_contact__ul {
+  list-style: none;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 1rem;
+  color: #011233;
+}
+
+.personal_contact__ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.personal_contact__ul li i {
+  color: #011233;
+  min-width: 18px;
+  font-size: 1.1rem;
+}
+
+.section_card {
+  margin-bottom: 40px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #011233;
+}
+
+.section_card h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.section_card h3 {
+  font-size: 1.4rem;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.section_card h4 {
+  font-size: 1.1rem;
+  color: #000000;
+  margin-bottom: 6px;
+}
+
+.section_card p {
+  font-size: 1rem;
+  color: #000000;
+  line-height: 1.5;
+}
+
+.education_item,
+.certificate_item,
+.experience_item {
+  margin-bottom: 18px;
+}
+
+.language_bar {
+  margin-bottom: 18px;
+}
+
+.language_bar h4 {
+  font-weight: 600;
+  color: #011233;
+  margin-bottom: 4px;
+}
+
+.language_bar p {
+  font-size: 0.9rem;
+  color: black;
+  margin-bottom: 6px;
+}
+
+.language_bar .bar {
+  background-color: #011233;
+  height: 12px;
+  border-radius: 12px;
+  transition: width 0.4s ease;
+}
+
+.skills_list {
+  list-style: disc inside;
+  columns: 2;
+  gap: 10px;
+  font-size: 1rem;
+  color: #011233;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0 10px;
+  border-top: 1px solid #011233;
+  color: #011233;
+  font-size: 0.9rem;
+}
+
+.footer_links {
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer_links a {
+  color: #011233;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.footer_links a:hover,
+.footer_links a:focus {
+  color: #011233;
+  outline: none;
+}
+
+@media (max-width: 700px) {
+  .personal_info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .skills_list {
+    columns: 1;
+  }
+
+  .sections_nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
